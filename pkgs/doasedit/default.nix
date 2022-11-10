@@ -1,6 +1,6 @@
 { stdenv, lib, fetchFromGitea }:
 
-stdenv.mkDerivation {
+stdenv.mkDerivation rec {
   pname = "doasedit";
   version = "1.0.1";
 
